@@ -506,3 +506,53 @@ td {
     }
 
 }
+.deal-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 18px 0 25px;
+}
+
+.deal-form input {
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.deal-row,
+.limited-deal-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 10px 0;
+}
+
+.deal-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.deals-section {
+  padding: 35px 7%;
+  background: #fff0e8;
+}
+
+.limited-deals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.limited-deal-card strong {
+  color: #e64a19;
+  font-size: 20px;
+}
+
+.deal-countdown {
+  color: #c0392b;
+  font-weight: bold;
+}
